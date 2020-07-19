@@ -1,6 +1,8 @@
 # unihan-to-pinyin
-This is a simple script that generates a character to pinyin and jyutping mapping in JSON from the
-Unihan database.
+This repo is comprised of a simple script that generates a character to pinyin and jyutping mapping
+in JSON from the Unihan database, as well as a Chrome extension, located under `chrome_extension`,
+which uses the results of the script to replace or supplement Chinese characters with hanzi. The
+Chrome extension may be installed by downloading the `hanzi_to_pinyin.crx` file.
 
 ## Running the generation script
 The generation script is `generate_mappings.py` and runs on Python 3.7 or later. It generates both
