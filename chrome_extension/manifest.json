@@ -1,0 +1,20 @@
+{
+    "name": "Hanzi to Pinyin",
+    "version": "1.0",
+    "description": "Converts Chinese characters to pinyin.",
+    "manifest_version": 2,
+    "options_page": "options.html",
+    "permissions": ["storage"],
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "chrome_extension.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
